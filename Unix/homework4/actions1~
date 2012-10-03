@@ -1,0 +1,6 @@
+list all
+remove PartID=R67817
+add "{'Footprint': '1206', 'Description': 'RES,50OHM,1/4W,1%,SMD', 'PartID': 'R4700', 'Quantity': 5}"
+list all 
+set Quantity=1 where PartID=R4700
+list all with Quantity=1
