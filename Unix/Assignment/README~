@@ -1,0 +1,8 @@
+Since I am enrolled in Intro to Unix and Applied Software Engineering at the same, I found some similarites between the two classes. I believe that Intro to Unix could be a prerequiste to Applied Software Engineering. I found out this out in a bad way when I was first introduced to Multithreading applications in Applied Software engineering. The content of the material is the same, but the projects in Applied are a lot more difficult than the ones in Unix. I believe that doing a project in thread creation would help us learn more about multithreading programming. In Intro to Unix we talked about Posix, but we haven't ever applied any of its concepts. Posix thread api would help us learn the basics of this posix. It would be nice for us to learn the basics of threads before taking Applied Software Engineering. 
+
+Most of the points for this assignment needs to go towards the syntax and attemept to create the threads. This project can be done withing three lines, but the whole purpose of this project is to implement this by using a differnet thread rather than the main thread. It might be rather unorthodx way of adding two numbers, but it would help us learn the basics of multithreading programming. Considering the fact that this is tought concept, most of the points must be allocated for trying the project by using posix pthead api rather than computation within the main process. 
+Proposed Point Distribution:
+Getting two values num#1 and num#2 from the user - 30 points
+Creating a new thread in correct way - 50 points (partial credit allocated) 
+Computing the sum - 20 points 
+If the person doesnot use new posix thread functions none of the 50 points will be allocaed. 

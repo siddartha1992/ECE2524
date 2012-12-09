@@ -1,0 +1,22 @@
+Create a Thread Assignment
+
+Purpose: The purpose of this assignment is to get familar with Posix threads in C++. The main program executes a seperate thread and this child thread would then perform an addition of two numbers which are entered by the user. 
+
+Background/Theory: Posix thread contains an api which can be used to spawn a thread. Threads allows the main process to spawn a new concurrent process flow. This enables two computations to occur at the same time. Thread creation and cancellation are major parts of multi-threading programming. Instead of one flow, multi threaded program carries out several function at once (some in the background while others happen in the foreground). An example of a well developed multi threaded application is microsoft word. There are several processes that are executed behind the GUI application. The program autosaves every few minutes which is invoked by a thread. Error checking is another processes that is invocated whenever a the user enteres a incorrect word. 
+
+More background and examples at this website: http://www.yolinux.com/TUTORIALS/LinuxTutorialPosixThreads.html
+
+Key Functions:
+pthread_create - creates a new thread
+pthread_join - waits for termination of a thread
+pthread_exit - terminates the calling thread
+
+Note: There are several other functions which could be found on the website mentioned above.
+
+Procedure:
+1)Create a new C++ project
+2)Ask user for 2 inputs (Number #1 and Number#2)
+3)Create a thread that would invoke a function which would compute the sum and prints out the resulting sum. 
+4)Print an termination message onto the screen indicating that the thread has finished executing. 
+
+
