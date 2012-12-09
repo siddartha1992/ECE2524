@@ -5,4 +5,4 @@ Proposed Point Distribution:
 Getting two values num#1 and num#2 from the user - 30 points
 Creating a new thread in correct way - 50 points (partial credit allocated) 
 Computing the sum - 20 points 
-If the person doesnot use new posix thread functions none of the 50 points will be allocaed. 
+If the person doesnot use new posix thread functions none of the 50 points will be allocated. 
